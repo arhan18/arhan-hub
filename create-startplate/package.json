@@ -1,0 +1,47 @@
+{
+  "name": "create-startplate",
+  "version": "1.0.0",
+  "description": "Scaffold a production-ready SaaS with auth, payments, and everything you need",
+  "type": "module",
+  "bin": {
+    "create-startplate": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "saas",
+    "boilerplate",
+    "starter",
+    "astro",
+    "tailwind",
+    "auth",
+    "payments",
+    "dodopayments",
+    "better-auth",
+    "cloudflare"
+  ],
+  "author": "Arhan Ahmad",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.10",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

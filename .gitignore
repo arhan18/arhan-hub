@@ -63,9 +63,8 @@ coverage/
 *.7z
 *.rar
 
-# Large data
+# Large data files
 *.csv
-*.json
 *.sqlite
 *.db
 
@@ -125,7 +124,6 @@ docker-compose.override.yml
 
 # pnpm
 .pnpm-store/
-products/
 
 # Exclude large product folders and embedded repos
 products/
