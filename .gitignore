@@ -1,0 +1,127 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.turbo/
+
+# Large media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.pdf
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Large data
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+vendor/
+
+# Temporary
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS
+*.swp
+*.swo
+*~
+
+# Large files (Git LFS will handle)
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# Backup
+*.bak
+*.backup
+*.orig
+
+# IDE specific
+.vs/
+*.code-workspace
+
+# Vercel/Netlify
+.vercel
+.netlify
+
+# Docker
+docker-compose.override.yml
+
+# Turbo
+.turbo
+
+# pnpm
+.pnpm-store/
