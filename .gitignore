@@ -127,5 +127,3 @@ docker-compose.override.yml
 
 # Exclude large product folders and embedded repos
 products/
-skills/ui-ux-pro-max-skill/
-test-automation-skills-agents/
